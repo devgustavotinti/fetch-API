@@ -1,0 +1,47 @@
+body {
+  background-color: #1a1a1a;
+  color: #cacaca;
+}
+
+#formulario {
+  display: flex;
+  justify-content: center;
+
+
+  & form {
+    font-size: 1.5rem;
+    margin-top: 70px;
+
+    & input {
+      font-size: 1.2rem;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    & #btnCep {
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      color: #1a1a1a;
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}
+
+.resultadoCep {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-left: 50px;
+
+  & table {
+    line-height: 2rem;
+  }
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}

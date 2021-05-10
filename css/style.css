@@ -1,0 +1,52 @@
+body {
+  background-color: #1a1a1a;
+  color: #cacaca;
+}
+
+#formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#formulario form {
+  font-size: 1.5rem;
+  margin-top: 70px;
+}
+
+#formulario form input {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#formulario form #btnCep {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #1a1a1a;
+}
+
+#formulario form #btnCep:hover {
+  background: #fff;
+}
+
+.resultadoCep {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.resultadoCep table {
+  line-height: 2rem;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */

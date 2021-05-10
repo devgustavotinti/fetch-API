@@ -21,10 +21,10 @@ function buscaCep(cep) {
     <table width="90%" border="1px">
     <thead>
       <tr>
-        <td colspan="6">Resultado da busca</td>
+        <td colspan="6" align="center">Resultado da busca</td>
       </tr>
 
-      <tr>
+      <tr align="center">
         <td width="15%">CEP</td>
         <td width="10%">DDD</td>
         <td width="10%">UF</td>
@@ -35,7 +35,7 @@ function buscaCep(cep) {
     </thead>
   
     <tbody>
-      <tr>
+      <tr align="center">
         <td>${body.cep}</td>
         <td>${body.ddd}</td>
         <td>${body.uf}</td>
